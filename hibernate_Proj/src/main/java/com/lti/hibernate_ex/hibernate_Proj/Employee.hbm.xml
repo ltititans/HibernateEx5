@@ -9,7 +9,7 @@
 <param name="sequence">hb_seq</param>
 </generator>
 </id>
-<property name="name" column="name"/>
+<property name="empName" column="empName"/>
 <property name="branch" column="branch"/>
 </class>
 </hibernate-mapping>
