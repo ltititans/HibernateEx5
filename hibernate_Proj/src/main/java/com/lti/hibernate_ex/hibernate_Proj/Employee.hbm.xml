@@ -8,7 +8,9 @@
       
      
       <id name = "id" column = "id">
-         <generator class="increment"/>
+         <generator class="sequencet">
+         <param name="sequence">hb_seq</param>
+         </generator>
       </id>
       
       <property name = "empName" column = "empName" />
