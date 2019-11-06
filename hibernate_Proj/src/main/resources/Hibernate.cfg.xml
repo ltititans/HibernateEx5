@@ -27,8 +27,7 @@
       </property>
       <property name="hbm2ddl.auto">create</property>
       <property name="connection.pool_size">1</property>
-      <property name="dialct">org.hibernate.dialect.O
-      racle10gDialect</property>
+      <property name="dialct">org.hibernate.dialect.Oracle10gDialect</property>
       <!-- List of XML mapping files -->
       <mapping resource = "com/lti/hibernate_ex/hibernate_Proj/Employee.hbm.xml"/>
       
