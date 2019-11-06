@@ -2,20 +2,14 @@
 <!DOCTYPE hibernate-mapping PUBLIC 
 "-//Hibernate/Hibernate Mapping DTD//EN"
 "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
-
 <hibernate-mapping package="com.lti.hibernate_ex.hibernate_Proj">
-   <class name = "Employee" table = "EMPLOYEE">
-      
-     
-      <id name = "id" column = "id">
-         <generator class="sequencet">
-         <param name="sequence">hb_seq</param>
-         </generator>
-      </id>
-      
-      <property name = "empName" column = "empName" />
-      <property name = "branch" column="branch" />
-     
-      
-   </class>
+<class name="Employee" table="employee">
+<id name="id" column="id">
+<generator class="sequence" >
+<param name="sequence">hb_seq</param>
+</generator>
+</id>
+<property name="name" column="name"/>
+<property name="branch" column="branch"/>
+</class>
 </hibernate-mapping>
